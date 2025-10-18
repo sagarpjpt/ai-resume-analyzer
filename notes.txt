@@ -1,0 +1,9 @@
+1--> npm create vite@latest .
+    install with react > react router 7
+
+2-->What is Puter.js ?
+    Puter.js is a client-side JavaScript library that claims to bring cloud, authentication, storage, database and AI services directly into the frontend — no backend setup required.
+
+3--> npm install clsx tailwind-merge pdfjs-dist zustand
+
+4--> npm i -D tw-animate-css
