@@ -7,3 +7,7 @@
 3--> npm install clsx tailwind-merge pdfjs-dist zustand
 
 4--> npm i -D tw-animate-css
+
+5--> add this <script src="https://js.puter.com/v2/"></script> to root.tsx inside <body></body> at top
+
+6--> using zustand which is small state management hook for puter.ts for auth
