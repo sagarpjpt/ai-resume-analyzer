@@ -1,87 +1,39 @@
-# Welcome to React Router!
+# 🧠 AI Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+A modern web application that analyzes resumes using **AI-powered feedback**. Built with **React**, **TypeScript**, and **Puter.js**, this project allows users to upload their resumes (PDF), view AI-generated feedback, and manage their app data easily — all on the frontend.
 
 ---
 
-Built with ❤️ using React Router.
+## 🚀 Features
+
+- **🧾 Resume Upload (Form Uploader Page)**  
+  Upload your resume in PDF format for instant analysis.
+
+- **🧠 AI Resume Feedback**  
+  Automatically generates insightful feedback using AI to help improve your resume.
+
+- **🖼️ PDF to Image Conversion**  
+  Converts uploaded PDFs into images for better visual feedback and display.
+
+- **🏠 Feedback Showcase on Home Screen**  
+  Displays the collected AI feedback summaries directly on the home page.
+
+- **🧑‍💻 Authentication System (via Puter.js)**  
+  Secure login and user session management handled with **Puter.js**.
+
+- **🧭 Responsive UI with Navigation, Hero Section & Resume Cards**  
+  Beautifully designed frontend sections for a smooth and modern user experience.
+
+- **🧹 Wipe App Data Option**  
+  Easily clear all stored data and reset the app by visiting `/wipe`.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, TypeScript, React Router, TailwindCSS  
+- **AI Integration:** Integrated AI feedback system using client-side logic  
+- **PDF Processing:** PDF-to-Image conversion logic  
+- **Storage & Auth:** Puter.js  
+
+---
